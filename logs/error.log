@@ -1,0 +1,32 @@
+2026/05/16 14:17:17 logger.go:33: Logger initialized
+2026/05/16 14:17:17 db.go:22: Database connection established
+2026/05/16 14:17:17 db.go:29: Migration failed: Error 1170 (42000): BLOB/TEXT column 'name' used in key specification without a key length
+2026/05/16 14:19:04 logger.go:33: Logger initialized
+2026/05/16 14:19:04 db.go:22: Database connection established
+2026/05/16 14:19:04 db.go:35: Dropping all tables...
+2026/05/16 14:19:05 db.go:40: Tables dropped successfully
+2026/05/16 14:19:05 db.go:31: Database migration completed
+2026/05/16 14:19:05 database_seeder.go:10: Running Database Seeder...
+2026/05/16 14:19:05 role_seeder.go:25: RoleSeeder: Role Admin created
+2026/05/16 14:19:05 role_seeder.go:25: RoleSeeder: Role User created
+2026/05/16 14:19:05 user_seeder.go:31: UserSeeder: Admin user created
+2026/05/16 14:19:05 book_seeder.go:31: BookSeeder: Database seeded successfully
+2026/05/16 14:19:05 database_seeder.go:24: Database Seeding Completed
+2026/05/16 14:19:05 main.go:61: CLI operation completed. Exiting.
+2026/05/16 14:19:38 logger.go:33: Logger initialized
+2026/05/16 14:19:38 db.go:22: Database connection established
+2026/05/16 14:19:38 db.go:35: Dropping all tables...
+2026/05/16 14:19:38 db.go:40: Tables dropped successfully
+2026/05/16 14:19:38 db.go:31: Database migration completed
+2026/05/16 14:19:38 database_seeder.go:10: Running Database Seeder...
+2026/05/16 14:19:38 role_seeder.go:25: RoleSeeder: Role Admin created
+2026/05/16 14:19:38 role_seeder.go:25: RoleSeeder: Role User created
+2026/05/16 14:19:38 user_seeder.go:31: UserSeeder: Admin user created
+2026/05/16 14:19:39 book_seeder.go:31: BookSeeder: Database seeded successfully
+2026/05/16 14:19:39 database_seeder.go:24: Database Seeding Completed
+2026/05/16 14:19:39 main.go:61: CLI operation completed. Exiting.
+2026/05/16 14:20:00 logger.go:33: Logger initialized
+2026/05/16 14:20:00 db.go:22: Database connection established
+2026/05/16 14:20:00 db.go:31: Database migration completed
+2026/05/16 14:20:00 main.go:92: Server starting on port 9010
+2026/05/16 14:43:02 logger.go:13: GET /book 127.0.0.1:53280 240.503µs
